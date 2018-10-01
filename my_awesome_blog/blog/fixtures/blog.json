@@ -1,0 +1,77 @@
+[
+{
+  "model": "blog.post",
+  "pk": "4bd7221f-0e5d-4468-97ce-f2c192ca64b1",
+  "fields": {
+    "created_at": "2018-10-01T10:27:03.492Z",
+    "updated_at": "2018-10-01T10:27:03.492Z",
+    "title": "My awful post",
+    "body": "It's really awful, trust me",
+    "views": 0,
+    "author": "63020cae-6bde-4cc9-8e4a-7bb5ac5faffe"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "4c786ed0-b1b9-492f-8585-e60abdb6b92e",
+  "fields": {
+    "created_at": "2018-09-28T15:28:34.583Z",
+    "updated_at": "2018-09-28T15:28:34.583Z",
+    "title": "My awesome second post in this extremely awesome blog",
+    "body": "fesgrdthfgukhiljo;kpl",
+    "views": 0,
+    "author": "63020cae-6bde-4cc9-8e4a-7bb5ac5faffe"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "d94eca72-66b1-489b-8761-02b5a934e1ed",
+  "fields": {
+    "created_at": "2018-09-28T15:28:22.363Z",
+    "updated_at": "2018-09-28T15:28:22.363Z",
+    "title": "My awesome first post in this extremely awesome blog",
+    "body": "daefsgr",
+    "views": 2,
+    "author": "63020cae-6bde-4cc9-8e4a-7bb5ac5faffe"
+  }
+},
+{
+  "model": "blog.tag",
+  "pk": "3ea3a86e-d1e6-4fe1-a6a4-89a2d6e8ced0",
+  "fields": {
+    "created_at": "2018-10-01T10:27:03.491Z",
+    "updated_at": "2018-10-01T10:27:03.491Z",
+    "name": "Awesome",
+    "description": "",
+    "posts": [
+      "4bd7221f-0e5d-4468-97ce-f2c192ca64b1"
+    ]
+  }
+},
+{
+  "model": "blog.tag",
+  "pk": "e0daa602-be1a-4139-b506-40a9411dfecf",
+  "fields": {
+    "created_at": "2018-10-01T10:27:03.489Z",
+    "updated_at": "2018-10-01T10:27:03.489Z",
+    "name": "Third",
+    "description": "",
+    "posts": [
+      "4bd7221f-0e5d-4468-97ce-f2c192ca64b1"
+    ]
+  }
+},
+{
+  "model": "blog.tag",
+  "pk": "ea1efb35-10b9-4e91-a731-a422eb33a2a8",
+  "fields": {
+    "created_at": "2018-10-01T08:52:55.845Z",
+    "updated_at": "2018-10-01T08:52:55.845Z",
+    "name": "First",
+    "description": "Tag for the first author publication",
+    "posts": [
+      "d94eca72-66b1-489b-8761-02b5a934e1ed"
+    ]
+  }
+}
+]
